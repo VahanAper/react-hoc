@@ -1,0 +1,15 @@
+{
+	"extends": "rallycoding",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "no-unused-expressions": ["off"],
+    "no-unused-vars": 1,
+    "react/no-find-dom-node": 0,
+    "arrow-body-style": 0
+  }
+}
